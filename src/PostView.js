@@ -19,8 +19,6 @@ const PostView = () => {
     }
     console.log(data)
 
-
-
     const renData = data.map((item, index) => {
         return (
             <section key={index} className="card">

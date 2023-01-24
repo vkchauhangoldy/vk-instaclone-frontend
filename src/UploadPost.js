@@ -8,16 +8,7 @@ function UploadPost(){
     const [image, setImageFile] = React.useState('') ;
     const [description, setDescritpion] = React.useState(""); 
 
-    // const history = useHistory();
-
-    // React.useEffect(() => {
-    //   history.listen(() => {
-    //     window.location.reload();
-    //   });
-    // }, [history]);
-    
-    
-        // const [path,setPath] = React.useState()
+  
         const formData = new FormData();
         // Map => takes the data in the key value format 
         formData.append("name", name)
@@ -32,7 +23,6 @@ function UploadPost(){
         }
 
         
-    
     const styles = {
       container: { height: "300px" , justifyContent:'space-evenly', width: "400px", display: "flex", flexFlow: 'column wrap' }
     }
